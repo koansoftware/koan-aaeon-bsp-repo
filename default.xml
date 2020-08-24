@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  koan-aaeon-bsp-repo -->
+
+<manifest>
+
+  <default sync-j="8" revision="dunfell"/>
+
+  <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
+  <remote fetch="https://github.com/koansoftware" name="koan"/>
+  <remote fetch="https://github.com/openembedded" name="oe"/>
+
+  <remote fetch="https://github.com/OE4T" name="oe4t"/>
+
+  <project remote="yocto" name="poky" path="sources/poky"/>
+  <project remote="oe" name="meta-openembedded.git" path="sources/meta-openembedded"/>
+
+  <project remote="oe4t" name="meta-tegra" revision="dunfell-l4t-r32.4.2" path="sources/meta-tegra"/>
+
+  <project remote="koan" name="koan-aaeon-bsp-base" path="sources/base">
+	<linkfile dest="README.md" src="README.md"/>
+	<linkfile dest="setup-environment" src="setup-environment"/>
+  </project>
+</manifest>
