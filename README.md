@@ -1,10 +1,8 @@
-![KoanSoftware.com](http://koansoftware.com/pub/img/koan-header.png)
-
-(C)2020 Copyright - KOAN sas - <https://koansoftware.com>
-
 # koan-aaeon-bsp-repo
 
 BSP Yocto layer for AAEON Boxer - Start here to create the Yocto build environment 
+
+![aaeon.com](https://www.aaeon.com/emgz/client_logo.png)
 
 Koan BSP for AAEON Boxer - Yocto Project 3.1 'dunfell' LTS
 ------------
@@ -31,16 +29,13 @@ $: repo sync
 
 At the end of the commands you have every metadata you need to start work with.
 
-To start a simple image build:
+Continue reading the documentation in the [meta-aaeonboxer README](https://github.com/koansoftware/meta-aaeonboxer)
 
-```
-$: MACHINE=jetson-nano-qspi-sd DISTRO=poky source setup-environment build
-$: bitbake core-image-minimal
-```
+![boxer-8221a](https://eshop.aaeon.com/media/catalog/product/cache/image/800x800/e9c3970ab036de70892d86c6d221abfe/b/o/boxer-8221ai_3d_front_600x600.jpg)
 
-You can use any directory to host your build.
 
 Contributing
-------------
-
+-------
 Please use GitHub (https://github.com/koansoftware/koan-aaeon-bsp-repo) to submit issues or pull requests, or add to the documentation on the wiki. Contributions are welcome!
+
+(C)2020 Copyright - KOAN sas - <https://koansoftware.com>
