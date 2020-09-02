@@ -12,19 +12,19 @@ To get the BSP you need to have `repo` installed and use it as:
 Install the `repo` utility:
 
 ```
-$: mkdir ~/bin
-$: curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
-$: chmod a+x ~/bin/repo
+$ mkdir ~/bin
+$ curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+$ chmod a+x ~/bin/repo
 ```
 
 Download the BSP source:
 
 ```
-$: PATH=${PATH}:~/bin
-$: mkdir yocto-aaeon-dunfell
-$: cd yocto-aaeon-dunfell
-$: repo init -b dunfell -u https://github.com/koansoftware/koan-aaeon-bsp-repo
-$: repo sync
+$ PATH=${PATH}:~/bin
+$ mkdir ${HOME}/yocto-aaeon-dunfell
+$ cd yocto-aaeon-dunfell
+$ repo init -b dunfell -u https://github.com/koansoftware/koan-aaeon-bsp-repo
+$ repo sync
 ```
 
 At the end of the commands you have every metadata you need to start work with.
