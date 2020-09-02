@@ -1,8 +1,8 @@
-# koan-aaeon-bsp-repo
-
-BSP Yocto layer for AAEON Boxer - Start here to create the Yocto build environment 
+# Yocto Project setup for AAEON NVIDIA AI Solutions
 
 ![aaeon.com](https://www.aaeon.com/emgz/client_logo.png)
+
+BSP Yocto layer for AAEON Boxer - Start here to create the Yocto build environment 
 
 Koan BSP for AAEON Boxer - Yocto Project 3.1 'dunfell' LTS
 ------------
