@@ -36,7 +36,7 @@ yocto-aaeon-dunfell
 ├── README.md -> sources/meta-aaeonboxer/README.md
 ├── setup-environment -> sources/meta-aaeonboxer/scripts/setup-environment
 └── sources
-    ├── meta-aaeonboxer
+    ├── meta-aaeon-nvidia
     │    └── scripts
     │        ├── deploy-aaeon.sh
     │        └── setup-environment
@@ -45,7 +45,7 @@ yocto-aaeon-dunfell
     └── poky
 ```
 
-Please continue reading the documentation in the [meta-aaeonboxer README](https://github.com/koansoftware/meta-aaeonboxer)
+Please continue reading the documentation in the [meta-aaeon-nvidia README](https://github.com/koansoftware/meta-aaeon-nvidia)
 
 ![boxer-8221a](https://eshop.aaeon.com/media/catalog/product/cache/image/800x800/e9c3970ab036de70892d86c6d221abfe/b/o/boxer-8221ai_3d_front_600x600.jpg)
 
