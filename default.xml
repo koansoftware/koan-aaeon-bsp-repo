@@ -16,7 +16,7 @@
 
   <project remote="oe4t" name="meta-tegra" revision="dunfell-l4t-r32.4.2" path="sources/meta-tegra"/>
 
-  <project remote="koan" name="meta-aaeonboxer" path="sources/meta-aaeonboxer">
+  <project remote="koan" name="meta-aaeon-nvidia" path="sources/meta-aaeon-nvidia">
 	<linkfile dest="README.md" src="README.md"/>
 	<linkfile dest="setup-environment" src="scripts/setup-environment"/>
   </project>
